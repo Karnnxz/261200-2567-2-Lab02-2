@@ -15,9 +15,7 @@ public class Book {
         System.out.println("Price: " + price);
     }
 
-    void updatePrice(double newPrice) {
-        this.price = newPrice;
-    }
+    void updatePrice(double newPrice) { this.price = newPrice; }
 
     void applyDiscount(double discountPercent) {
         if (discountPercent <= 0 || discountPercent >= 100) {

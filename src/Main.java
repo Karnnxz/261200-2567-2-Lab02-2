@@ -4,7 +4,7 @@ void main() {
     book1.displayDetails();
     System.out.println();
 
-    book1.applyDiscount(25.00);
+    book1.applyDiscount(50.00);
 
     System.out.println();
     book1.displayDetails();

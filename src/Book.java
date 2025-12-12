@@ -21,7 +21,7 @@ public class Book {
 
     void applyDiscount(double discountPercent) {
         if (discountPercent <= 0 || discountPercent >= 100) {
-            System.out.println("Error, Please try again eiei");
+            System.out.println("Error, Please fill the number that greater than 0.00 and less than 100.00.");
         }
         else {
             double discountPrice = price * (discountPercent / 100.0);
